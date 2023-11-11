@@ -18,3 +18,14 @@ select first_name , last_name from actor ;
 # create a db my_prac  
 
 create database my_prac1 ;
+
+-- comment in sql 
+--  single commenting 
+-- multiline commenting 
+/*  
+hdfwdhfhdf
+fhakhfahgjf
+sfahgfkjaf
+
+
+*/
