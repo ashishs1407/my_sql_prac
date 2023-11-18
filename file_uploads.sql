@@ -1,3 +1,5 @@
+--Upload 
+
 -- Step1 run the code 
 
 SHOW VARIABLES LIKE "secure_file_priv";
@@ -19,3 +21,15 @@ IGNORE 1 LINES;
 -- to run the following code 
 GRANT FILE ON *.* TO 'root'@'localhost';
 FLUSH PRIVILEGES;
+
+
+
+-- Download 
+
+-- If you want to download a file  
+-- Note: file will be download to path configured by  SHOW VARIABLES LIKE "secure_file_priv"; 
+SELECT *
+INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/employee_data.csv'
+FIELDS TERMINATED BY ','
+FROM employee;
+
