@@ -1,0 +1,32 @@
+Question 1: CREATE TABLE
+
+Create a table named 'products' with the following columns:
+product_id (integer)
+product_name (varchar, maximum length 100)
+price (decimal, 2 decimal places)
+stock_quantity (integer)
+
+
+Question 2 : INSERT 
+Insert five records into the 'products' table with the following information:
+Product ID: 1, Product Name: 'Laptop', Price: 1200.50, Stock Quantity: 20
+Product ID: 2, Product Name: 'Smartphone', Price: 599.99, Stock Quantity: 50
+Product ID: 3, Product Name: 'Headphones', Price: 89.95, Stock Quantity: 100
+Product ID: 4, Product Name: 'Tablet', Price: 349.99, Stock Quantity: 30
+Product ID: 5, Product Name: 'Monitor', Price: 249.95, Stock Quantity: 40
+
+Question 3: SELECT ALL
+Write a query to select all columns from the 'products' table.
+
+Question 4: WHERE CLAUSE
+Write a query to select the product name and price of products where the stock quantity is less than 30.
+
+Question 5: ORDER BY
+Write a query to select all columns from the 'products' table and order the results by price in descending order.
+
+Question 6: LIMIT
+Write a query to select the first 2 records from the 'products' table.
+
+Question 7: GROUP BY
+Write a query to find the total stock quantity for each product category (you can assume a 'category' column exists in the 'products' table).
+

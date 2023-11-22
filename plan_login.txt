@@ -1,0 +1,20 @@
+# class login 
+# constructor user_id and password
+# read the file convert object dict => *  
+# import json 
+# with open( 'sample1.json', 'r') as f:
+#     s = json.load(f) # json => dict 
+#     f.close()
+
+
+# method to check the user_id is present : user_id is present : boolen => yes 
+# case1: true  / signin
+# compare the user i/p password wrt file password  : boolean True/False
+#case1.1 : true give the acces 
+# case1.2 : false : check the credentials 
+# 
+# case2 : false /  signup
+# wirte the cred to json file  => 
+# new_dict = {"age" : 20 }
+# with open('sample1.json' ,'w') as f:
+#     json.dump(new_dict , f )

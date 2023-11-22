@@ -1,0 +1,42 @@
+Question 1: CREATE TABLE
+
+Create a table named 'employees' with the following columns:
+employee_id (integer)
+first_name (varchar, maximum length 50)
+last_name (varchar, maximum length 50)
+department (varchar, maximum length 50)
+salary (decimal, 2 decimal places)
+
+Question 2: INSERT DATA
+Insert seven records into the 'employees' table with the following information:
+Employee ID: 1, First Name: 'John', Last Name: 'Doe', Department: 'IT', Salary: 75000.00
+Employee ID: 2, First Name: 'Jane', Last Name: 'Smith', Department: 'HR', Salary: 60000.00
+Employee ID: 3, First Name: 'Mark', Last Name: 'Johnson', Department: 'IT', Salary: 80000.00
+Employee ID: 4, First Name: 'Emily', Last Name: 'Williams', Department: 'Finance', Salary: 90000.00
+Employee ID: 5, First Name: 'David', Last Name: 'Brown', Department: 'HR', Salary: 70000.00
+Employee ID: 6, First Name: 'Jessica', Last Name: 'Miller', Department: 'IT', Salary: 85000.00
+Employee ID: 7, First Name: 'Michael', Last Name: 'Davis', Department: 'Finance', Salary: 95000.00
+
+Question 3: SELECT WITH WHERE CLAUSE
+Write a query to select the first name, last name, and salary of employees in the 'IT' department.
+
+Question 4: GROUP BY WITH AGGREGATE FUNCTION
+Write a query to find the average salary for each department.
+
+Question 5: HAVING CLAUSE
+Write a query to find departments with an average salary greater than 80000.
+
+Question 6: ORDER BY
+Write a query to select all columns from the 'employees' table and order the results by salary in descending order.
+
+Question 7: GROUP BY WITH COUNT
+Write a query to find the number of employees in each department.
+
+Question 8: HAVING CLAUSE WITH COUNT
+Write a query to find departments with more than two employees.
+
+Question 9: GROUP BY WITH MAX
+Write a query to find the highest salary in each department.
+
+Question 10: HAVING CLAUSE WITH MAX
+Write a query to find departments where the highest salary is greater than 90000.
