@@ -18,3 +18,38 @@
 # new_dict = {"age" : 20 }
 # with open('sample1.json' ,'w') as f:
 #     json.dump(new_dict , f )
+
+# ------------- 
+import os
+from datetime import datetime
+from google.cloud import storage
+
+# Replace with your actual values
+bucket_name = 'gan_crm_hills_archive'
+destination_folder = 'test_abs'
+
+# Create a client to interact with Google Cloud Storage
+client = storage.Client()
+
+# Get the current date in the format 'YYYY-MM-DD'
+current_date = datetime.now().strftime('%Y%m%d')
+
+# Get a reference to the bucket
+bucket = client.get_bucket(bucket_name)
+
+# List all files in the bucket
+blobs = bucket.list_blobs()
+
+# Loop through each file
+for blob in blobs:
+    # Extract the filename from the blob's name
+    filename = os.path.basename(blob.name)
+
+    # Check if the filename contains the current date
+    if current_date not in filename:
+        # Move the file to a new location (e.g., a different folder)
+        new_blob = bucket.blob(f'{destination_folder}/{filename}')
+        new_blob.upload_from_string(blob.download_as_text())
+        blob.delete()
+
+print('Files moved successfully.')

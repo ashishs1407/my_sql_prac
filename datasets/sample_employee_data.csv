@@ -1,0 +1,21 @@
+employee_id,first_name,last_name,email,hire_date,department,gender,salary,region_id
+1,Berrie,Manueau,bmanueau0@dion.ne.jp,2006-04-20,Sports,F,154864,4
+2,Aeriell,McNee,amcnee1@google.es,2009-01-26,Tools,F,56752,3
+3,Sydney,Symonds,ssymonds2@hhs.gov,2010-05-17,Clothing,F,95313,4
+4,Avrom,Rowantree,NULL,2014-08-02,"Phones & Tablets",M,119674,7
+5,Feliks,Morffew,fmorffew4@a8.net,2003-01-14,Computers,M,55307,5
+6,Bethena,Trow,btrow5@technorati.com,2003-06-08,Sports,F,134501,3
+7,Ardeen,Curwood,acurwood6@1und1.de,2006-02-19,Clothing,F,28995,7
+8,Seline,Dubber,sdubber7@t-online.de,2012-05-28,"Phones & Tablets",F,101066,3
+9,Dayle,Trail,dtrail8@tamu.edu,2003-03-01,"First Aid",F,82753,1
+10,Redford,Roberti,NULL,2008-07-21,Clothing,M,72225,7
+11,Nickey,Pointon,npointona@vistaprint.com,2006-12-30,Jewelry,M,126333,7
+12,Leonora,Casaroli,lcasarolib@plala.or.jp,2013-07-22,Beauty,F,99504,3
+13,Anetta,Arnao,NULL,2009-05-23,Games,F,38162,1
+14,Jodi,Hook,jhookd@booking.com,2003-10-16,Tools,F,126588,2
+15,Alyson,Franzonello,NULL,2004-01-01,Furniture,F,61256,6
+16,Merell,Yakovliv,myakovlivf@ucsd.edu,2008-08-16,Movies,M,78141,7
+17,Annora,Bendelow,abendelowg@google.com.hk,2009-06-12,Toys,F,75283,5
+18,Ronica,Armfield,NULL,2012-09-14,Toys,F,114983,5
+19,Bernardine,Hendricks,bhendricksi@privacy.gov.au,2006-02-04,"Device Repair",F,158268,3
+20,Jessey,Colum,jcolumj@pen.io,2013-07-08,Computers,M,77173,7

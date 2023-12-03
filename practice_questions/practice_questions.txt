@@ -1,0 +1,29 @@
+create table Dept (Dept_No int,Dname varchar(50),Loc varchar(50));
+insert into Dept values(10,"accounting","Newyork"),(20,"Research","Dallas"),(30,"sales","chicago"),(40,"operation","boston");
+
+create table Emp (Emp_No int,Ename Varchar(50),Job varchar(50),Mgr int,Hiredate date, Sal int,comm int,Deptno int);
+insert into Emp values (7499,"Allen","salesman",7688,"1981-02-20",1600,300,30),
+                        (7521,"ward","salesman",7698,"1981-02-22",1250,500,30),
+                        (7566,"Jones","Manager",7839,"1981-04-02",2950,Null,20),
+                        (7654,"Martin","Salesman",7698,"1981-09-28",1250,1400,30),
+                        (7698,"Blake","Manager",7839,"1981-05-01",2850,Null,30),
+                        (7782,"Clark","Manager",7839,"1981-09-06",2450,Null,10),
+                        (7788,"Scott","Analyst",7566,"1981-12-09",3000,Null,20),
+                        (7839,"king","President",Null,"1981-11-17",5000,Null,10),
+                        (7844,"Turner","Salesman",7698,"1981-09-08",1500,0,30),
+                        (7876,"Adams","Clerk",7788,"1983-01-12",1100,Null,20),
+                        (7900,"James","Clerk",7698,"1981-12-03",950,Null,30),
+                        (7802,"Ford","Analyst",7566,"1981-01-03",3000,Null,20),
+                        (7934,"Miller","Clerk",7782,"1982-01-23",1300,Null,10);
+
+                        
+Q1) Display unique jobs from employee table
+Q2) list the employees in desc order of their salary?
+Q3) list the employees who joined before 1981 ?
+Q4) calculate employees daily salary ?
+Q5) total number of employees in each department
+Q6) list details of employees who are working for MGR 7369
+Q7) list the employees who are either clerk or analyst?
+Q8) list details of employee who joined on 1-may-81 ,3-dec-81,17-dec-81,19-jan-80 ?
+Q9) list details of employees who are working in 10 or 20 dept?
+Q10) list the details of employees those are having 5 character in their name?
