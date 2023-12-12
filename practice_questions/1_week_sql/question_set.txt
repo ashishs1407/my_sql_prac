@@ -1,0 +1,95 @@
+SQL Assignment:
+Question 1:
+Write an SQL query to retrieve all columns from the "sales" table where the order_date is greater than or equal to '2021-01-10'.
+
+Question 2:
+Write an SQL query to calculate the total price for each order (customer_id and order_date) in the "sales" table. Display the result with appropriate column names.
+
+Question 3:
+Using the "menu" table, write an SQL query to retrieve the product_name and price of the menu items with a price greater than 12.
+
+Question 4:
+Write an SQL query to find the number of customers who joined the loyalty program on or after '2021-01-08'.
+
+Question 5:
+Create an SQL query to get the total revenue for each product_name. Consider only the orders placed by members who joined before '2021-01-10'.
+
+Question 6:
+Write an SQL query to retrieve all columns from the "sales" table along with the product_name from the "menu" table. Use the appropriate join.
+
+Question 7:
+Find the customer_id and join_date of customers who joined the loyalty program, and for each customer, display the total number of orders they placed.
+
+Question 8:
+Write an SQL query to retrieve the product_name and the total number of times it has been ordered, ordered by the highest number of orders.
+
+Question 9:
+Using the "sales" and "menu" tables, write an SQL query to find the average price of orders placed on '2021-01-11'.
+
+Question 10:
+Combine the results of the previous two questions using UNION. Display the product_name, total number of times ordered, and average price for orders placed on '2021-01-11'.
+
+
+
+Challenging SQL Assignment:
+Question 1:
+Write an SQL query to find the top 3 customers who spent the most in a single order. Display customer_id, order_date, and the total order amount.
+
+Question 2:
+Create an SQL query to calculate the running total of sales for each customer, considering only orders placed after their join_date. Include the customer_id, order_date, and the running total.
+
+Question 3:
+Using a subquery, find the customer_id who has the maximum total order amount. Display the customer_id and the corresponding total order amount.
+
+Question 4:
+Write an SQL query to find the average time, in days, between consecutive orders for each customer. Display the customer_id and the average time.
+
+Question 5:
+Create an SQL query to identify customers who have ordered every menu item at least once. Display the customer_id.
+
+Question 6:
+Using the LAG() window function, find the time gap between the current order_date and the previous order_date for each customer. Display customer_id, order_date, and the time gap.
+
+Question 7:
+Write an SQL query to find the product_name that has been ordered by the fewest distinct customers. Display the product_name and the number of distinct customers who ordered it.
+
+Question 8:
+Create an SQL query to find the customer_id and the total number of orders for customers who have placed orders on consecutive days. Display only those customers.
+
+Question 9:
+Write an SQL query to find the median order amount for each product_name. Consider the total order amount for each product_name and display the product_name and median order amount.
+
+Question 10:
+Using a combination of JOIN and subquery, write an SQL query to retrieve the customer_id and order_date for customers who ordered the same menu item within 2 days of each other.
+
+
+Advanced SQL Assignment:
+Question 1:
+Write an SQL query to find the customer_id and order_date for customers who ordered the same product on consecutive days. Use the WHERE clause and self-join.
+
+Question 2:
+Create an SQL query to calculate the average time, in hours, between consecutive orders for each customer. Use the LAG() window function and consider only the orders placed after their join_date.
+
+Question 3:
+Write an SQL query to find the product_name that has the highest variability in prices. Display the product_name and the coefficient of variation (standard deviation divided by the mean).
+
+Question 4:
+Using a subquery and the NOT EXISTS clause, find the customer_id who has not placed any orders after '2021-01-15'. Display the customer_id.
+
+Question 5:
+Write an SQL query to find the customer_id and the total number of orders for customers who have placed orders on both '2021-01-01' and '2021-01-11'. Use the INTERSECT operator.
+
+Question 6:
+Create an SQL query to calculate the cumulative percentage of revenue for each product_name. Use window functions and ordering by revenue.
+
+Question 7:
+Write an SQL query to find the customer_id and the total number of distinct products they have ordered. Exclude customers who joined the loyalty program after '2021-01-05'.
+
+Question 8:
+Using the ROW_NUMBER() window function, find the most recent order for each customer. Display customer_id, order_date, and product_name.
+
+Question 9:
+Write an SQL query to find the top 5 products with the highest average order amount. Consider only orders placed by customers who joined the loyalty program on or before '2021-01-09'.
+
+Question 10:
+Create an SQL query to calculate the average time, in days, between the first and second orders for each customer. Use the FIRST_VALUE() window function and ordering by order_date.
