@@ -53,3 +53,19 @@ for blob in blobs:
         blob.delete()
 
 print('Files moved successfully.')
+
+
+------------ 
+# Extract the table data
+table = driver.find_element_by_xpath('//table[@id="hsaTable"]')
+table_html = table.get_attribute('outerHTML')
+
+# Close the browser
+driver.quit()
+
+# Convert the HTML table to a Pandas DataFrame
+data = pd.read_html(table_html)[0]
+
+# Display the DataFrame
+print("\nScraped Data:")
+print(data)
